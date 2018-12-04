@@ -1,0 +1,58 @@
+.Rectangle-16 {
+    width: 464px;
+    height: 375px;
+    box-shadow: 0 9px 24px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+    mix-blend-mode: revert;
+}
+.Logo-Wider {
+    width: 90px;
+    height: 27px;
+    object-fit: contain;
+}
+.Logo-Wider-sidebar {
+    width: 60px;
+    height: 18px;
+    object-fit: contain;
+    margin: 16px 0 0 50px;
+}
+.matiinu-ramadhan-468809-unsplash {
+    width: 1440px;
+    height: 900px;
+    object-fit: contain;
+    mix-blend-mode: soft-light;
+    background: url("/img/matiinu-ramadhan-468809-unsplash.png") 100% 100%;
+}
+.-Login {
+    width: 1440px;
+    height: 900px;
+    background-color: #3b9ee1;
+}
+
+.main-sidebar{width: 200px;
+    background-color: white;  }
+.sidebar-menu > li.active > a{
+    color: black;
+    background-color: white;
+    border-left-color: #ccc;
+}
+.sidebar-menu > li > a{
+    color: black;
+    background-color: white;
+    border-left: 3px solid transparent;
+}
+.content-wrapper{margin-left: 200px;}
+
+@media (min-width: 768px) {
+    .main-sidebar {
+        padding-top: 20px;
+    }
+}

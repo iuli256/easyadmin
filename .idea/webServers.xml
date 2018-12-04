@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9b118e1e-8145-46fd-914a-c32d18976aa7" name="www" url="http://localhost:8080">
+        <fileTransfer port="0" mountedRoot="C:\wamp64\www\geronimo\web" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
